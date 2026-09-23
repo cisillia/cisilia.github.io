@@ -1,0 +1,660 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Personal profile website Allysia Cisillia, siswi DKV dan aktif dalam organisasi."
+  >
+
+  <title>Allysia Cisillia — Personal Profile</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header class="navbar">
+
+    <a href="#home" class="logo">
+      AC<span>.</span>
+    </a>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Journey</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a
+      href="https://github.com/"
+      class="nav-pill"
+      target="_blank"
+    >
+      GitHub ↗
+    </a>
+
+  </header>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero section" id="home">
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          <span></span>
+          DKV STUDENT • ORGANIZATION
+        </p>
+
+        <h1>
+          Hi, I'm<br>
+          <em>Allysia.</em>
+        </h1>
+
+        <p class="hero-text">
+          A visual communication design student who enjoys
+          turning ideas into meaningful visuals, leading people,
+          and telling stories.
+        </p>
+
+        <div class="hero-actions">
+
+          <a href="#about" class="button primary">
+            Explore profile ↓
+          </a>
+
+          <a href="#contact" class="button secondary">
+            Let's connect
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- FOTO -->
+
+      <div class="hero-visual">
+
+        <div class="photo-frame">
+
+          <div class="photo-placeholder">
+
+            <!--
+              GANTI bagian ini dengan:
+
+              <img
+                src="assets/profile.jpg"
+                alt="Allysia Cisillia"
+              >
+            -->
+
+            <div class="placeholder-icon">
+              ✦
+            </div>
+
+            <strong>
+              Your Photo
+            </strong>
+
+            <small>
+              replace assets/profile.jpg
+            </small>
+
+          </div>
+
+        </div>
+
+
+        <div class="floating-card card-one">
+
+          <span>
+            01
+          </span>
+
+          <p>
+            Creative<br>
+            Thinker
+          </p>
+
+        </div>
+
+
+        <div class="floating-card card-two">
+
+          <span>
+            ✦
+          </span>
+
+          <p>
+            Keep<br>
+            creating.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= MARQUEE ================= -->
+
+    <section class="marquee">
+
+      <div>
+        DESIGN • LEADERSHIP • STORYTELLING • CREATIVITY •
+        DESIGN • LEADERSHIP • STORYTELLING • CREATIVITY •
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section about" id="about">
+
+      <div class="section-label">
+        01 / ABOUT ME
+      </div>
+
+
+      <div class="about-grid">
+
+        <div>
+
+          <h2>
+            More than<br>
+            <em>a student.</em>
+          </h2>
+
+        </div>
+
+
+        <div class="about-content">
+
+          <p class="large-copy">
+
+            Saya adalah siswi
+            <strong>Desain Komunikasi Visual</strong>
+            yang aktif dalam organisasi dan ekstrakurikuler.
+
+            Saya tertarik pada desain, komunikasi,
+            kepemimpinan, dan bagaimana sebuah ide
+            bisa disampaikan dengan cara yang terasa
+            dekat dengan orang lain.
+
+          </p>
+
+
+          <!-- BIODATA -->
+
+          <div class="bio-details">
+
+            <div>
+              <span>Nama</span>
+              <strong>Allysia Cisillia</strong>
+            </div>
+
+            <div>
+              <span>Panggilan</span>
+              <strong>Lysia</strong>
+            </div>
+
+            <div>
+              <span>Kelas</span>
+              <strong>XII DKV 2</strong>
+            </div>
+
+            <div>
+              <span>Sekolah</span>
+              <strong>SMK PGRI 1 Tangerang</strong>
+            </div>
+
+            <div>
+              <span>Hobi</span>
+              <strong>Membaca</strong>
+            </div>
+
+            <div>
+              <span>Fokus</span>
+              <strong>Design & Leadership</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= JOURNEY ================= -->
+
+    <section
+      class="section journey"
+      id="experience"
+    >
+
+      <div class="section-label">
+        02 / MY JOURNEY
+      </div>
+
+
+      <div class="section-heading">
+
+        <h2>
+          A few chapters<br>
+          <em>of my story.</em>
+        </h2>
+
+        <p>
+          Pengalaman yang membentuk cara saya bekerja,
+          berkomunikasi, dan memimpin.
+        </p>
+
+      </div>
+
+
+      <div class="timeline">
+
+
+        <!-- EXPERIENCE 1 -->
+
+        <article class="timeline-item">
+
+          <div class="year">
+            2025—2026
+          </div>
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+
+            <p class="tag">
+              ORGANIZATION
+            </p>
+
+            <h3>
+              Wakil Ketua OSIS
+            </h3>
+
+            <p>
+              Belajar mengelola program kerja,
+              berkoordinasi dengan banyak pihak,
+              menyelesaikan masalah, dan bekerja
+              di balik berbagai kegiatan sekolah.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 2 -->
+
+        <article class="timeline-item">
+
+          <div class="year">
+            2025—2026
+          </div>
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+
+            <p class="tag">
+              MEDIA & EVENT
+            </p>
+
+            <h3>
+              Creative & Event Projects
+            </h3>
+
+            <p>
+              Terlibat dalam pengelolaan beberapa
+              akun media organisasi, menjadi PIC
+              kegiatan, serta mengembangkan konsep
+              dan komunikasi visual untuk event sekolah.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <!-- EXPERIENCE 3 -->
+
+        <article class="timeline-item">
+
+          <div class="year">
+            2026
+          </div>
+
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+
+            <p class="tag">
+              CREATIVE
+            </p>
+
+            <h3>
+              Film & Visual Storytelling
+            </h3>
+
+            <p>
+              Menjadi pemeran utama dalam film pendek
+              yang meraih Juara 2 tingkat provinsi.
+              Pengalaman yang mengajarkan bahwa
+              storytelling bukan cuma soal kamera dan desain.
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section
+      class="section skills"
+      id="skills"
+    >
+
+      <div class="section-label">
+        03 / WHAT I BRING
+      </div>
+
+
+      <div class="skills-grid">
+
+        <div>
+
+          <h2>
+            Skills that<br>
+            <em>matter.</em>
+          </h2>
+
+          <p class="muted">
+
+            Hal yang terus saya kembangkan
+            lewat sekolah, organisasi,
+            dan pengalaman sehari-hari.
+
+          </p>
+
+        </div>
+
+
+        <div class="skill-list">
+
+
+          <div class="skill">
+
+            <span>01</span>
+
+            <strong>
+              Leadership
+            </strong>
+
+            <i>
+              ↗
+            </i>
+
+          </div>
+
+
+          <div class="skill">
+
+            <span>02</span>
+
+            <strong>
+              Communication
+            </strong>
+
+            <i>
+              ↗
+            </i>
+
+          </div>
+
+
+          <div class="skill">
+
+            <span>03</span>
+
+            <strong>
+              Creative Thinking
+            </strong>
+
+            <i>
+              ↗
+            </i>
+
+          </div>
+
+
+          <div class="skill">
+
+            <span>04</span>
+
+            <strong>
+              Teamwork
+            </strong>
+
+            <i>
+              ↗
+            </i>
+
+          </div>
+
+
+          <div class="skill">
+
+            <span>05</span>
+
+            <strong>
+              Visual Storytelling
+            </strong>
+
+            <i>
+              ↗
+            </i>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+
+    <section class="section achievements">
+
+      <div class="section-label">
+        04 / ACHIEVEMENTS
+      </div>
+
+
+      <div class="achievement-grid">
+
+
+        <article class="achievement">
+
+          <span class="achievement-number">
+            01
+          </span>
+
+          <div class="achievement-icon">
+            🏆
+          </div>
+
+          <h3>
+            International<br>
+            Taekwondo Championship
+          </h3>
+
+          <p>
+            Bronze medal • 2025
+          </p>
+
+        </article>
+
+
+        <article class="achievement">
+
+          <span class="achievement-number">
+            02
+          </span>
+
+          <div class="achievement-icon">
+            🎬
+          </div>
+
+          <h3>
+            Film Pendek<br>
+            Tingkat Provinsi
+          </h3>
+
+          <p>
+            Juara 2 • 2026
+          </p>
+
+        </article>
+
+
+        <article class="achievement featured">
+
+          <span class="achievement-number">
+            03
+          </span>
+
+          <div class="achievement-icon">
+            ✦
+          </div>
+
+          <h3>
+            Always learning,<br>
+            always growing.
+          </h3>
+
+          <p>
+            School • Organization • Creative
+          </p>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+      class="section contact"
+      id="contact"
+    >
+
+      <div class="contact-inner">
+
+        <p class="eyebrow">
+          <span></span>
+          LET'S CONNECT
+          <span></span>
+        </p>
+
+
+        <h2>
+
+          Let's make something<br>
+          <em>worth remembering.</em>
+
+        </h2>
+
+
+        <p>
+          Open to creative projects,
+          collaborations, and meaningful conversations.
+        </p>
+
+
+        <div class="contact-links">
+
+          <a
+            href="https://github.com/"
+            target="_blank"
+          >
+            GitHub ↗
+          </a>
+
+          <a
+            href="https://instagram.com/"
+            target="_blank"
+          >
+            Instagram ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <span>
+      © 2026 Allysia Cisillia
+    </span>
+
+    <span>
+      Designed & built with curiosity.
+    </span>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+```
